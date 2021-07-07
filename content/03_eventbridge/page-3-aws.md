@@ -6,15 +6,34 @@ weight: 3
 
 # Setup AWS Event Bus
 
-In AWS, go to the Amazon EventBridge service.
+In the AWS Console, select “Services” -> Amazon Event Bridge”.
 
-Choose Partner Event Sources.
+This will display the main Amazon Event Bridge screen.
 
-Choose the source whose name starts with aws.partner/pagerduty.com/ 
+On the left hand side, click on “Partner event sources” to finish our event bridge integration.
 
-Click the button Associate with event bus
+![](/images/ebaws_1.png)
 
-...
+Under ”Partner Event Sources” we will see our open request for integration that came from our PagerDuty account.
+
+In order to activate it, we will click on ”Associate with event bus” button.
+
+![](/images/ebaws_2.png)
+
+In the ”Associate with event bus” page we can verify the name and origin of the request and optionally connect this to other accounts or organizations.
+
+To finish the setup we click “Associate”
+
+![](/images/ebaws_3.png)
+
+Back in our “Partner event sources” page, we will see that the status of event bus is now ”Active”
+
+We have completed the Amazon Event Bridge setup.
+Next, we create rules that we can trigger from our PagerDuty Account.
+
+![](/images/ebaws_4.png)
+
+
 
 {{% notice warning %}}
 <p style='text-align: left;'>
