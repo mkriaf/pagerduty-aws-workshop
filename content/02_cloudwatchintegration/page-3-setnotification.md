@@ -1,10 +1,10 @@
 ---
-title: "Create SNS Notification"
+title: "Set an SNS Notification"
 chapter: true
 weight: 3
 ---
 
-# Create SNS Notification
+# Set an SNS Notification
 
 On the SNS Topic just created, create a new Notification
 

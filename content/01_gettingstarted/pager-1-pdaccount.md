@@ -6,7 +6,7 @@ weight: 1
 
 # Set up your PagerDuty Account
 
-You will need a PagerDuty account to receive alerts from Cloudwatch. If you would like to use a free account, you can sign up for a Developer Account from PagerDuty. It contains certain restrictions but is designed for those who want to work in a safe environment, but is not intended to be a production instance.
+You will need a PagerDuty account to receive alerts from Cloudwatch. If you would like to use a free account, you can sign up for a Developer Account from PagerDuty. It contains certain restrictions but is designed for those who want to work in a safe environment, but is not intended to be a production instance. More information on PagerDuty Developer accounts is found [here](https://developer.pagerduty.com/docs/app-integration-development/developer-account/).
 
 ### Sign up
 

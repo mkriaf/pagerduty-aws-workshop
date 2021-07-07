@@ -1,10 +1,10 @@
 ---
-title: "Create Cloudwatch Alarm"
+title: "Create a Cloudwatch Alarm"
 chapter: true
 weight: 4
 ---
 
-# Create Cloudwatch Alarm
+# Create a Cloudwatch Alarm
 
 In AWS, navigate to Cloudwatch.
 

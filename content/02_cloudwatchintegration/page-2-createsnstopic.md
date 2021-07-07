@@ -1,10 +1,10 @@
 ---
-title: "Create SNS Topic"
+title: "Create an SNS Topic"
 chapter: true
 weight: 2
 ---
 
-# Create SNS Topic
+# Create an SNS Topic
 
 In AWS, navigate to the Simple Notification Service (SNS) page. 
 
