@@ -33,10 +33,3 @@ Next, we create rules that we can trigger from our PagerDuty Account.
 
 ![](/images/ebaws_4.png)
 
-
-
-{{% notice warning %}}
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with PagerDuty.
-</p>
-{{% /notice %}}

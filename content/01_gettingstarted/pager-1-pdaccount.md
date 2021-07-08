@@ -10,16 +10,11 @@ You will need a PagerDuty account to receive alerts from Cloudwatch. If you woul
 
 ### Sign up
 
-Go to https://developer.pagerduty.com and fill out the form and create a Developer account and subdomain. 
+Go to https://developer.pagerduty.com and click "Get Started" to begin. Fill out the form to create a Developer account and subdomain. 
 
 ![Sign Up for a new Dev Account](/images/dev_signup.png)
 
-Once your account has been created, you will be logged in and directed to the Developer Mode dashboard. Click on the upper left hand PagerDuty logo to go to the Incident Dashboard.
+Once your account has been created, you will automatically be logged in and directed to the Developer Mode dashboard. Click on the upper left hand PagerDuty logo to go to the Incident Dashboard.
 
 ![Click on the logo to go to the Incident dashboard](/images/dev_logo.png)
 
-{{% notice warning %}}
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with PagerDuty.
-</p>
-{{% /notice %}}

@@ -53,8 +53,3 @@ Back on the rules page we will see our newly created rule.
 ![](/images/ebrules_6.png)
 
 
-{{% notice warning %}}
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with PagerDuty.
-</p>
-{{% /notice %}}
