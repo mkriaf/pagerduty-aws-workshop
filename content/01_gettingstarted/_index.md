@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-# Getting Started
+## Getting Started
 
 ### Welcome
 
