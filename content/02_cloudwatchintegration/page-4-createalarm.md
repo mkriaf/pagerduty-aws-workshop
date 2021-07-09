@@ -4,7 +4,7 @@ chapter: true
 weight: 4
 ---
 
-# Create a Cloudwatch Alarm
+## Create a Cloudwatch Alarm
 
 In this section we are going to walk through how to create an AWS CloudWatch Alarm.
 

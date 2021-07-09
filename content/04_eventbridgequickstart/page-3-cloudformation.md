@@ -4,7 +4,7 @@ chapter: true
 weight: 3
 ---
 
-# Deploy the Integration
+## Deploy the Integration
 
 In your AWS Console, you will deploy the CloudFormation template provided.
 

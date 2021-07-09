@@ -4,7 +4,7 @@ chapter: true
 weight: 2
 ---
 
-# Create a Simple Application
+## Create a Simple Application
 
 Follow these instructions to use CloudFormation to create an environment and a web application as a sample that we use to produce Alarms.
 

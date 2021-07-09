@@ -4,7 +4,7 @@ chapter: true
 weight: 5
 ---
 
-# SecurityHub and PagerDuty
+## SecurityHub and PagerDuty
 
 ### Welcome
 

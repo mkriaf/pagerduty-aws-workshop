@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-# Automation
+## Automation
 
 ### Why would we want to use EventBridge?
 

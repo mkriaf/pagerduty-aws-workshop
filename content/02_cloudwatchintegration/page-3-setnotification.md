@@ -4,7 +4,7 @@ chapter: true
 weight: 3
 ---
 
-# Set an SNS Notification
+## Set an SNS Notification
 
 On the SNS Topic just created, create a new Notification
 

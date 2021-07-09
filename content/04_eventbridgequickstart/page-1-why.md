@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-# What is this Quickstart?
+## What is this Quickstart?
 
 ### What is the PagerDuty EventBridge Quickstart?
 

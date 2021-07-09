@@ -4,7 +4,7 @@ chapter: true
 weight: 3
 ---
 
-# EventBridge and PagerDuty
+## EventBridge and PagerDuty
 
 ### Welcome
 

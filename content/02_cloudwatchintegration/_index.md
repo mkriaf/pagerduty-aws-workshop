@@ -4,7 +4,7 @@ chapter: true
 weight: 2
 ---
 
-# CloudWatch Integration
+## CloudWatch Integration
 
 ### Welcome
 

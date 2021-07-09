@@ -4,7 +4,7 @@ chapter: true
 weight: 2
 ---
 
-# Configure the Integration
+## Configure the Integration
 
 In order to configure the PagerDuty EventBridge integration, you will need to know your AWS Account identifier. 
 
@@ -13,6 +13,7 @@ In order to configure the PagerDuty EventBridge integration, you will need to kn
 Instructions on how to find your Account Identifier are [here](https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers).
 {{% /notice %}}
 
+### Create the Extension 
 In PagerDuty, go to the Integrations menu and click Extensions.
 
 Then click on the blue button "+ New Extension"
@@ -39,5 +40,5 @@ A new, blank form will appear for the new integration. Enter the data as below.
 
 Click the button "Create" to complete the configuration.
 
-
+The next step will be to set up AWS to do something with the event that is passed to EventBridge.
 

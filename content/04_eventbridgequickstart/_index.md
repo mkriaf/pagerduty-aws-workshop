@@ -4,7 +4,7 @@ chapter: true
 weight: 4
 ---
 
-# EventBridge Quickstart
+## EventBridge Quickstart
 
 ### Welcome
 

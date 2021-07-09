@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-# AWS PagerDuty Workshop
+## AWS PagerDuty Workshop
 
 ### Welcome
 

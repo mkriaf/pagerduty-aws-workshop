@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-# SecurityHub Setup
+## SecurityHub Setup
 
 Set up Security Hub
 
