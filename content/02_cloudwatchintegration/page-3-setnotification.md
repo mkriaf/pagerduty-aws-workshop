@@ -1,7 +1,7 @@
 ---
 title: "Set an SNS Subscription"
 chapter: true
-weight: 3
+weight: 4
 ---
 
 ## Set an SNS Subscription

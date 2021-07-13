@@ -1,7 +1,7 @@
 ---
 title: "Create an SNS Topic"
 chapter: true
-weight: 2
+weight: 3
 ---
 
 ## Create an SNS Topic

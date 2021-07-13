@@ -1,7 +1,7 @@
 ---
 title: "Create a Cloudwatch Alarm"
 chapter: true
-weight: 4
+weight: 5
 ---
 
 ## Create a Cloudwatch Alarm
