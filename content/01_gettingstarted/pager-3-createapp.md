@@ -1,0 +1,28 @@
+---
+title: "Create a Simple Application"
+chapter: true
+weight: 4
+---
+
+## Create a Simple Application
+
+Follow these instructions to use CloudFormation to create an environment and a web application as a sample that we use to produce Alarms.
+
+{{% notice warning %}}
+<p style='text-align: left;'>
+The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with PagerDuty.
+</p>
+{{% /notice %}}
+
+[Click here to deploy using CloudFormation template](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/template?stackName=ModernizationWorkshop-Pagerduty&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/master-stacks/vpc-only.yaml) CHAGNE
+
+   - Create stack, click **Next**
+   - Specify stack details, click **Next**
+   - Configure stack options, click **Next**
+   - Scroll to bottom section under **Capabilities** and check both boxes and click **Create stack**
+
+This template deploys a VPC, with a pair of public and private subnets spread
+across two Availability Zones. It deploys an internet gateway, with a default
+route on the public subnets. It deploys a pair of NAT gateways (one in each AZ), and default routes for them in the private subnets.
+
+This will take a couple of miuntes to deploy.
