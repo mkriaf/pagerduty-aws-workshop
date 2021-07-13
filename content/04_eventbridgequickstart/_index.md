@@ -12,7 +12,7 @@ In this chapter, we will use the EventBridge Quickstart to build an end to end I
 
 ### Learning Objectives
 - Understand the EventBridge Quickstart for PagerDuty
-- Set up the Cloudformation resources 
+- Set up the CloudFormation resources 
 
 {{% notice warning %}}
 <p style='text-align: left;'>
