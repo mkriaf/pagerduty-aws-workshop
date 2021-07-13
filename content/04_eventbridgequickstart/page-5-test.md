@@ -7,5 +7,5 @@ weight: 5
 ## Test
 
 - Create an Incident with Priority of P1
-- Check the Timeline and check to see that the Response play had run.
+- Check the Timeline and check to see that the Response play has run.
 

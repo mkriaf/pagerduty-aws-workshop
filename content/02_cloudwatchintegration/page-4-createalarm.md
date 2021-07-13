@@ -22,24 +22,26 @@ Under “Specify metric and conditions”, click “Select Metric”. This will 
 
 ![](/images/cw_alarm3.png)
 
-In our scenario we want to track how many unhealthy hosts we have in our ALB Target Group.
+In our scenario we want to track how many unhealthy hosts we have in our Application Load Balancer (ALB) Target Group.
 
 For that we will select the “UnhealthyHostCount” Metric,
 Under “ApplicationELB -> Per AppELB, Per TG Metrics”
 Then click “Select Metric” 
 
-Note: make sure to select the correct LB Name from the list
+{{% notice warning %}}
+Make sure to select the correct Load Balancer Name from the list
+{{% /notice %}}
 
 ![](/images/cw_alarm4.png)
 
 In the Metric configuration window we can set the period of sampling for our metric.
-For our scenario, lets change the sampling period to 1 minute.
+For our scenario, let's change the sampling period to 1 minute.
 
 Then, scroll down to the next part of the configuration
 
 ![](/images/cw_alarm5.png)
 
-Under conditions, we set what triggers our alarm. In our case we want to the alarm to trigger when we have at least one Unhealthy Hosts on our LB.
+Under conditions, we need to set what triggers our alarm. In our case we want to the alarm to trigger when we have at least __one__ Unhealthy Host on our LB.
 
 For that we will set our condition to “Greater/Equal”.
 
@@ -67,11 +69,11 @@ And select the same SNS Topic. After that we can scroll down and click “Next�
 
 ![](/images/cw_alarm8.png)
 
-In the last part of the setup add the “Alarm Name” that will displayed, and the description . Finally we click “Next” and go the overview page.
+In the last part of the setup add the “Alarm Name” that will displayed, and the description. Finally we click “Next” and go the overview page.
 
 ![](/images/cw_alarm9.png)
 
-In the review page we can verify all the details of our alarm .
+In the review page we can verify all the details of our alarm.
 And edit them in case we need to.
 
 Finally, we click “Create Alarm” on the bottom.

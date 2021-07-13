@@ -10,7 +10,7 @@ For every event places on the topic, we want to push it to PagerDuty. A Subscrip
 
 ### Create a new SNS Subscription.
 
-On the same SNS Topic just created, scroll down to the bottom. The Subscriptions subtab should be selected. 
+On the __same SNS Topic just created__, scroll down to the bottom. The Subscriptions subtab should be selected. 
 
 Click the orange button "Create subscription".
 
@@ -34,7 +34,7 @@ Paste in the URL from PagerDuty.
 
 Verify that your subscription was created successfully.
 
-After a moment, refresh the Subscription page. Verify that your subscription status is not "Pending confirmation". 
+After a moment, refresh the Subscription page. Verify that your subscription status is __not__ "Pending confirmation". 
 ![](/images/subs4_pending.png)
 
 PagerDuty will automatically confirm the Subscription if your URL is correct.
