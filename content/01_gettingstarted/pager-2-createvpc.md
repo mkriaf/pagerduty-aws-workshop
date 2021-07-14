@@ -13,7 +13,7 @@ This is an optional step, if you already have a VPC setup you can skip this step
 
 ## Provision VPC
 
-   [Click here to deploy using CloudFormation template](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/template?stackName=ModernizationWorkshop-gitlab&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/master-stacks/vpc-only.yaml)
+   [Click here to deploy using CloudFormation template](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/template?stackName=Workshop-PD-vpc&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/master-stacks/vpc-only.yaml)
 
    - Create stack, click **Next**
    - Specify stack details, click **Next**

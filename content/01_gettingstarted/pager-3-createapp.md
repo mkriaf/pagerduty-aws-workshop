@@ -14,10 +14,15 @@ The examples and sample code provided in this workshop are intended to be consum
 </p>
 {{% /notice %}}
 
-[Click here to deploy using CloudFormation template](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/template?stackName=ModernizationWorkshop-Pagerduty&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/master-stacks/vpc-only.yaml) CHAGNE
+[Click here to deploy using CloudFormation template](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/template?stackName=Workshop-PD-APP&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/sample-web-app/Demo-noasg.yml)
 
    - Create stack, click **Next**
-   - Specify stack details, click **Next**
+   - Specify stack details,
+      - Set the KeyName for the EC2 machine
+      - Select 2 Public subnets for the Loadbalancer
+      - Select the correct VPC id from the drop down
+      - Select a single private Subnet where the EC2 machine will reside.
+      - Finally click **Next**
    - Configure stack options, click **Next**
    - Scroll to bottom section under **Capabilities** and check both boxes and click **Create stack**
 
