@@ -26,6 +26,6 @@ All of this is automatic and no user intervention is required.
 
 {{% notice info %}}
 
-Complete instructions for use outside this Workshop are available [here](https://aws.amazon.com/quickstart/eventbridge/pagerduty-response-play/).
+To access this Quickstart directly click [here](https://aws.amazon.com/quickstart/eventbridge/pagerduty-response-play/).
 
 {{% /notice %}}

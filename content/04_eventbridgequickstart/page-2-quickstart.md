@@ -1,7 +1,7 @@
 ---
 title: "Configure the Integration"
 chapter: true
-weight: 2
+weight: 3
 ---
 
 ## Configure the Integration

@@ -30,4 +30,6 @@ This template deploys a VPC, with a pair of public and private subnets spread
 across two Availability Zones. It deploys an internet gateway, with a default
 route on the public subnets. It deploys a pair of NAT gateways (one in each AZ), and default routes for them in the private subnets.
 
-This will take a couple of miuntes to deploy.
+This will take a couple of minutes to deploy.
+
+When it is complete, find the Output subtab and it will show a URL for the website.  Open it in a browser to verify everything is up and running.
