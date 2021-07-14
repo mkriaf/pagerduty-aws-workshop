@@ -1,7 +1,7 @@
 ---
 title: "Deploy the Integration"
 chapter: true
-weight: 3
+weight: 4
 ---
 
 ## Deploy the Integration
@@ -25,8 +25,6 @@ The template has a set of parameters you will need to fill in while creating the
 ### Perform pre-requisites
 
 To create a REST API key in PagerDuty, Use the instructions [here](https://support.pagerduty.com/docs/generating-api-keys#generating-a-general-access-rest-api-key). 
-
-To create a Response Play follow the steps [here](https://support.pagerduty.com/docs/response-automation#create-a-response-play).
 
 To find the id of a Response Play (required for this exercise), open the list of Response Plays.
 

@@ -1,13 +1,15 @@
 ---
-title: "Test"
+title: "Trigger an Incident"
 chapter: true
 weight: 5
 ---
 
-## Test
+## Trigger an Incident
 
-- Stop the EC2 instance
-- Click the link and refresh a few times.
+- Stop the EC2 instance using the EC2 Console
+- Click the URL of our sample web page and refresh a few times.
+- The Alarm should start detecting errors.
 - An Incident should be created in PagerDuty.
-- In the Incident, choose More Actions and then choose the "Restart EC2" button
+- Open the Incident, find the Event Details tab to see what CloudWatch sent
+- When ready to restart the EC2 instance, choose the More Actions...Restart EC2 menu item
 

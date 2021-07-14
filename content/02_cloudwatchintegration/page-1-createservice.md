@@ -1,7 +1,7 @@
 ---
 title: "Create a PagerDuty Service"
 chapter: true
-weight: 3
+weight: 2
 ---
 
 ## Create a PagerDuty Service
