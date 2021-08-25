@@ -21,14 +21,12 @@ The examples and sample code provided in this workshop are intended to be consum
       - Set the KeyName for the EC2 machine
       - Select 2 Public subnets for the Loadbalancer
       - Select the correct VPC id from the drop down
-      - Select a single private Subnet where the EC2 machine will reside.
+      - Select a single private Subnet where the EC2 machine will reside. (To change? for simplification switch to all public)
       - Finally click **Next**
    - Configure stack options, click **Next**
    - Scroll to bottom section under **Capabilities** and check both boxes and click **Create stack**
 
-This template deploys a VPC, with a pair of public and private subnets spread
-across two Availability Zones. It deploys an internet gateway, with a default
-route on the public subnets. It deploys a pair of NAT gateways (one in each AZ), and default routes for them in the private subnets.
+This template deploys a Loadbalancer and one EC2 machine that hosts an Nginx webserver.
 
 This will take a couple of minutes to deploy.
 

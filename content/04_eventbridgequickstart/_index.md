@@ -19,3 +19,11 @@ In this chapter, we will use the EventBridge Quickstart to build an end to end I
 The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with PagerDuty.
 </p>
 {{% /notice %}}
+
+{{% notice info %}}
+<p style='text-align: left;'>
+Please note:
+The Quickstart example can only be started in us-east-1 region.
+To use in other regions please copy the source localy.
+</p>
+{{% /notice %}}
