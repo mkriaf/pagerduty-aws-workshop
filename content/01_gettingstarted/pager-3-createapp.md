@@ -14,7 +14,7 @@ The examples and sample code provided in this workshop are intended to be consum
 </p>
 {{% /notice %}}
 
-[Click here to deploy using CloudFormation template](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/template?stackName=Workshop-PD-APP&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/sample-web-app/Demo-noasg.yml)
+[Click here to deploy using CloudFormation template](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=Workshop-PD-APP&templateURL=https://modernization-workshop-bucket.s3-us-east-1.amazonaws.com/cfn/sample-web-app/Demo-noasg.yml)
 
    - Create stack, click **Next**
    - Specify stack details,
