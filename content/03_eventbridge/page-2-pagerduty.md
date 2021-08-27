@@ -28,6 +28,8 @@ On the popup, click the blue button "Open Amazon EventBridge Page".
 
 ![Add EventBridge integration](/images/eb_addext2.png)
 
+You may need to click the "Add Service" button at the top.
+
 A new, blank form will appear for the new integration. Enter the data as below.
 
 * __Name__ - This is the name that will appear on the Incident Details page under the More Actions menu.

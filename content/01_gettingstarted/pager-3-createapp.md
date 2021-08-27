@@ -21,7 +21,7 @@ The examples and sample code provided in this workshop are intended to be consum
       - Set the KeyName for the EC2 machine
       - Select 2 Public subnets for the Loadbalancer
       - Select the correct VPC id from the drop down
-      - Select a single private Subnet where the EC2 machine will reside. (To change? for simplification switch to all public)
+      - Select a single private Subnet where the EC2 machine will reside.
       - Finally click **Next**
    - Configure stack options, click **Next**
    - Scroll to bottom section under **Capabilities** and check both boxes and click **Create stack**

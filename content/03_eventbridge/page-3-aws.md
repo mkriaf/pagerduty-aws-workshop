@@ -6,7 +6,7 @@ weight: 3
 
 ## Setup AWS Event Bus
 
-In the AWS Console, select “Services” -> Amazon Event Bridge”.
+In the AWS Console, select “Services” -> Amazon EventBridge”.
 
 This will display the main Amazon Event Bridge screen.
 

@@ -27,3 +27,7 @@ The Quickstart example can only be started in us-east-1 region.
 To use in other regions please copy the source localy.
 </p>
 {{% /notice %}}
+
+{{% notice warning %}}
+Be sure to Delete the CloudFormation Stack we just built to destroy the objects that were created so that no further costs are incurred!
+{{% /notice %}}
