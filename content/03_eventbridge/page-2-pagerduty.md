@@ -38,7 +38,7 @@ A new, blank form will appear for the new integration. Enter the data as below.
 * __Services__ - One or more PagerDuty services must be selected. An Incident that is created on any of the services selected here will allow this action to be sent to EventBridge.
 * __Event Source Name__ - In the EventBridge Console, this name will be used to create the Partner Event Source.
 
-![Fill in EventBridge integration fields](/images/eb_addext3.png)
+![Fill in EventBridge integration fields](/images/eb_addext3a.png)
 
 Click the button "Create" to complete the configuration.
 
