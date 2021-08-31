@@ -26,6 +26,8 @@ And click ”Create rule”.
 ### Name the Rule
 We start by giving our rule a name and a description.
 
+Call it "RestartEC2".
+
 ![](/images/ebrules_3.png)
 
 ### Define the event pattern 
@@ -64,9 +66,8 @@ Here we define the action that we want to trigger from PagerDuty, and the target
 
 We can select we from various action from EC2 API Calls to Lambda Invocations.
 
-In our demo, we are going to trigger a reboot. For that we select “ EC2 Rebootinstances API Call”,
-input our target Instance ID, 
-and create a new role for this trigger. 
+In our demo, we are going to trigger a reboot. For that we select "EC2 Rebootinstances API call",
+input our target Instance ID, and create a new role for this trigger. 
 
 Then scroll down and click “Create”
 
