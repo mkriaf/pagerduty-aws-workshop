@@ -33,13 +33,30 @@ Next we define the pattern of event that will trigger this rule.
 
 In our case, we have only one type of event that comes from our PagerDuty account that we want to associate with our rule.
 
-So we select “Pre-defined pattern by service”
-Then “Service Partners”.
-And Finally “PagerDuty”.
+So we select “Custom pattern”
+
+Paste in this JSON to the Event pattern:
+
+	{
+		"detail-type": [
+			"PagerDuty Webhook"
+		],
+		"detail": {
+			"event": ["incident.custom"]
+		}
+	}
+
+
+Click Save.
+
+![](/images/ebrules_4.png)
+
+### Verify the event bus 
+The Select event bus section should already be correctly filled in.
 
 Next, scroll down to “Select Targets”.
 
-![](/images/ebrules_4.png)
+
 
 ### Define what to trigger
 

@@ -18,6 +18,6 @@ weight: 5
 
 1. Open the Incident, find the Event Details tab to see what CloudWatch sent
 
-1. When ready to restart the EC2 instance, choose the More Actions...Restart EC2 menu item
+1. When ready to restart the EC2 instance, choose the More Actions...RestartEC2Instance menu item
 
 1. The incident should AUTOMATICALLY be resolved in about 2 1/2 minutes.

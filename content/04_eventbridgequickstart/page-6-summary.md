@@ -19,6 +19,10 @@ In this section, we learned:
     - A Lambda object with Python code
     - An IAM Role to allow the Lambda object to run
 
+- When PagerDuty sends a trigger event to EventBridge, the Lambda code will check if it's a P1 or P2 and if so, run the appropriate Response Play. 
+
+- When PagerDuty sends a resolved event to EventBridge, the Lambda code will check if it's a P1 and if so, run the Resolved Response Play.
+
 {{% notice warning %}}
 Be sure to Delete the CloudFormation Stack we just built to destroy the objects that were created so that no further costs are incurred!
 {{% /notice %}}
