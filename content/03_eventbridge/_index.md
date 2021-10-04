@@ -8,7 +8,7 @@ weight: 3
 
 ### Welcome
 
-In this chapter, we will create an EventBridge integration to allow a responder to take action from pagerDuty during an Incident.
+In this chapter, we will create an EventBridge integration to allow a responder to take action from PagerDuty during an Incident.
 
 PagerDuty is the gold standard for mobilizing the right people when an incident occurs which needs someone to get eyes on it right away. 
 

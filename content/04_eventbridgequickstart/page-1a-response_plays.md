@@ -47,7 +47,7 @@ Name the new Response Play "P1 Play" and then scroll down.
 
 Check the box next to "Subscribe people who..." and then find yourself in the box underneath.
 
-Then, check the box next to "Publish a status update..." and enter the message "We have a new P1 Issue. Update in 15 minutes."
+Then, check the box next to "Publish a status update..." and enter the message "`We have a new P1 Issue. Update in 15 minutes.`"
 
 {{% notice tip %}}
 
@@ -59,14 +59,14 @@ The radio button under "Who can run this play on demand?" should be "No one" sin
 
 Use the __same steps__ as above for a new Response Play but change the name and the Message to send as:
 
-- Name: "P2 Play"
-- Message: "We have a new P2 Issue. Update in 30 minutes."
+- Name: "`P2 Play`"
+- Message: "`We have a new P2 Issue. Update in 30 minutes.`"
 
 ### Create a third Response Play for Resolving Incidents
 
 Use the __same steps__ as above for a new Response Play but change the name and the Message to send as:
 
-- Name: "Resolve Play"
-- Message: "We have resolved this issue. Postmortem will be published within 3 days."
+- Name: "`Resolve Play`"
+- Message: "`We have resolved this issue. Postmortem will be published within 3 days.`"
 
 

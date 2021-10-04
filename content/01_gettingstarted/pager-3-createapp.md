@@ -14,7 +14,7 @@ The examples and sample code provided in this workshop are intended to be consum
 </p>
 {{% /notice %}}
 
-[Click here to deploy using CloudFormation template](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/create/template?stackName=Workshop-PD-APP&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/sample-web-app/Demo-noasg.yml)
+[Click here to deploy using CloudFormation template](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=Workshop-PD-APP&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/sample-web-app/Demo-noasg.yml)
 
    - Create stack, click **Next**
    - Specify stack details,
@@ -26,9 +26,7 @@ The examples and sample code provided in this workshop are intended to be consum
    - Configure stack options, click **Next**
    - Scroll to bottom section under **Capabilities** and check both boxes and click **Create stack**
 
-This template deploys a VPC, with a pair of public and private subnets spread
-across two Availability Zones. It deploys an internet gateway, with a default
-route on the public subnets. It deploys a pair of NAT gateways (one in each AZ), and default routes for them in the private subnets.
+This template deploys a Loadbalancer and one EC2 machine that hosts an Nginx webserver.
 
 This will take a couple of minutes to deploy.
 

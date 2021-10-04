@@ -1,7 +1,7 @@
 ---
 title: "Set up your PagerDuty Account"
 chapter: true
-weight: 2
+weight: 1
 ---
 
 ## Set up your PagerDuty Account
